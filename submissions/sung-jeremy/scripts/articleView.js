@@ -97,7 +97,6 @@
       };
       $('#articles').append(a.toHtml($('#article-template')));
     });
-
     articleView.handleCategoryFilter();
     articleView.handleAuthorFilter();
     articleView.handleMainNav();
